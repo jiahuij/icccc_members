@@ -1,3 +1,5 @@
+'use client';
+
 import RequireAuth from '../../components/RequireAuth';
 import { useEffect, useState } from 'react';
 import { supabase } from '../../supabaseClient';
